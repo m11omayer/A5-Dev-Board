@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A5 dev board</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg-[#F4F7FF] min-h-screen">
+    
+    <header class="py-3">
+
+        <!-- nav scetion -->
+        <section class="mx-auto w-[95%] bg-white shadow-lg rounded-lg p-2 px-4">
+            <div class="flex items-center justify-between">
+                <!-- left side -->
+                <div class="flex items-center justify-center gap-2">
+                    <div>
+                        <img class="w-[25px]" src="./assets/logo.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Dev<span class="font-bold">Board</span></h2>
+                    </div>
+                </div>
+
+                <!-- right side div -->
+
+                <div class="flex items-center justify-center gap-2">
+                    <div>
+            <button id="back-page" class="my-4 px-3 py-2 rounded-md text-white bg-[#3752FD] hover:bg-[#3752FD] text-[10px] p-2">Back to Desk</button>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+
+
+   <section class="mx-auto w-[95%] rounded-lg px-4">
+    <h2 class="font-bold text-center text-[20px] py-4">Blogs</h2>
+
+    <div>
+        <h2 class="bg-white shadow-md font-bold p-3 rounded-lg">What are the different ways to select an element in the DOM?</h2>
+        <p class="bg-white shadow-md p-3 rounded-lg mt-2">Different ways to select an element in the DOM: getElementById(), getElementsByClassName(),
+             getElementsByTagName(), querySelector(), and querySelectorAll().</p>
+        <h2 class="bg-white shadow-md font-bold p-3 rounded-lg mt-4">What is the difference between innerHTML, innerText, and textContent ?</h2>
+        <p class="bg-white shadow-md p-3 rounded-lg mt-2">Difference between innerHTML, innerText, and textContent: innerHTML gets/sets HTML content, innerText gets/sets visible text, and textContent gets/sets all text including hidden elements.</p>
+        <h2 class="bg-white shadow-md font-bold p-3 rounded-lg mt-4" >What is event delegation in the DOM?</h2>
+        <p class="bg-white shadow-md p-3 rounded-lg mt-2">Event delegation in the DOM: A technique where a parent element handles events for its child elements using event bubbling.</p>
+        <h2 class="bg-white shadow-md font-bold p-3 rounded-lg mt-4">What is event bubbling in the DOM?</h2>
+        <p class="bg-white shadow-md p-3 rounded-lg mt-2">Event bubbling in the DOM: A process where an event starts from the target element and propagates up to its ancestors.</p>
+        <h2 class="bg-white shadow-md font-bold p-3 rounded-lg mt-4"> How do you create, add, and remove elements using JavaScript?</h2>
+        <p class="bg-white shadow-md p-3 rounded-lg mt-2">Creating, adding, and removing elements using JavaScript: Use document.createElement(), appendChild(), removeChild(), append(), and remove().</p>
+    </div>
+   </section>
+
+
+
+
+<script src="./scripts/blog.js"></script>
+
+</body>
+</html>
